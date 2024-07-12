@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-# to publish on github page
-gem 'github-pages', group: :jekyll_plugins
+gemspec
 
-# to publich without github page
-#gem "jekyll"
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
