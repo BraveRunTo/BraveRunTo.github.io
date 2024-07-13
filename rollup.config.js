@@ -6,7 +6,7 @@ import fs from 'fs';
 import pkg from './package.json';
 
 const SRC_DEFAULT = '_javascript';
-const DIST_DEFAULT = 'assets/js/dist';
+const DIST_DEFAULT = 'docs/assets/js/dist';
 
 const SRC_PWA = `${SRC_DEFAULT}/pwa`;
 const DIST_PWA = '_app';

@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://braverunto.github.io/BraveRunTosBlog.github.io/sitemap.xml
+Sitemap: https://braverunto.github.io/sitemap.xml
