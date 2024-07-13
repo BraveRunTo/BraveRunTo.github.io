@@ -4,7 +4,7 @@
   <id>https://braverunto.github.io/</id>
   <title>BraveRunTo</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-13T19:26:33+08:00</updated>
+  <updated>2024-07-13T19:32:26+08:00</updated>
   <author>
     <name>田嘉禾</name>
     <uri>https://braverunto.github.io/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>New Start</title>
+    <link href="https://braverunto.github.io/posts/new-start/" rel="alternate" type="text/html" title="New Start" />
+    <published>2024-07-13T00:34:00+08:00</published>
+  
+    <updated>2024-07-13T00:34:00+08:00</updated>
+  
+    <id>https://braverunto.github.io/posts/new-start/</id>
+    <content src="https://braverunto.github.io/posts/new-start/" />
+    <author>
+      <name>BraveRunTo</name>
+    </author>
+
+  
+    
+    <category term="Test" />
+    
+  
+
+  <summary>这是一篇测试文章</summary>
+
+  </entry>
 
   
   <entry>
