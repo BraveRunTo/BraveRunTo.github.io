@@ -18,6 +18,23 @@
   },
   
   {
+    "title": "Git多端构建",
+    "url": "/posts/Git%E5%A4%9A%E7%AB%AF%E6%9E%84%E5%BB%BA/",
+    "categories": "Git构建",
+    "tags": "Git",
+    "date": "2024-05-03 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "Git多端构建安装git网络上教如何安装git的文章有很多，这里就不过多赘述了，额外提示一点，在安装git之前建议现在命令行中输入git –version查看当前电脑是否已经安装了git（可能在一些软件中已经包含了git，比如macos中的xcode）连通github网上教如何连通github的文章也有很多，这里不过多赘述文章链接：https://www.cnblogs.com/hdlan/...",
+    "content": "Git多端构建安装git网络上教如何安装git的文章有很多，这里就不过多赘述了，额外提示一点，在安装git之前建议现在命令行中输入git –version查看当前电脑是否已经安装了git（可能在一些软件中已经包含了git，比如macos中的xcode）连通github网上教如何连通github的文章也有很多，这里不过多赘述文章链接：https://www.cnblogs.com/hdlan/p/14395681.html连通自定义服务器文章链接：https://blog.csdn.net/qq_43615903/article/details/104875791?spm=1001.2014.3001.5506常用git指令文章链接：https://www.cnblogs.com/wangzhebin/p/16669718.html"
+  },
+  
+  {
     "title": "Customize the Favicon",
     "url": "/posts/customize-the-favicon/",
     "categories": "Blogging, Tutorial",
