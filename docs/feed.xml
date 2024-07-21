@@ -4,7 +4,7 @@
   <id>https://braverunto.github.io/</id>
   <title>BraveRunTo</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-18T00:20:18+08:00</updated>
+  <updated>2024-07-21T09:30:23+08:00</updated>
   <author>
     <name>BraveRunTo</name>
     <uri>https://braverunto.github.io/</uri>
@@ -39,6 +39,53 @@
   
 
   <summary>这是一篇测试文章</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>svn</title>
+    <link href="https://braverunto.github.io/posts/svn/" rel="alternate" type="text/html" title="svn" />
+    <published>2024-05-03T00:00:00+08:00</published>
+  
+    <updated>2024-05-03T00:00:00+08:00</updated>
+  
+    <id>https://braverunto.github.io/posts/svn/</id>
+    <content src="https://braverunto.github.io/posts/svn/" />
+    <author>
+      <name>BraveRunTo</name>
+    </author>
+
+  
+    
+    <category term="SVN" />
+    
+  
+
+  <summary>SVN配置
+
+参考CSDN文章https://blog.csdn.net/weixin_42096792/article/details/119376681
+
+SVN外链
+
+参考CSDN文章https://blog.csdn.net/wag2765/article/details/84773514
+
+SVN配置时可能会遇到的问题
+
+
+  checkout时连接服务器失败
+    
+      检查防火墙是否允许3690端口通信
+    
+  
+  checkout时提示版本库不存在
+    
+      svn服务启动的路径应该在版本库的父级目录，这样才能正确使用版本库名。指的是svnserve -d -r path
+    
+  
+  服务器中找不到已经提交的文件
+    
+      服务器本地也需要checkout一份版本库才可以正常看见，checkout的格式为 svn co...</summary>
 
   </entry>
 
@@ -137,36 +184,6 @@ Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and th
   
 
   <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="https://braverunto.github.io/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2019-08-08T14:10:00+08:00</updated>
-  
-    <id>https://braverunto.github.io/posts/write-a-new-post/</id>
-    <content src="https://braverunto.github.io/posts/write-a-new-post/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
 
   </entry>
 
