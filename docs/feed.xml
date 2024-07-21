@@ -4,7 +4,7 @@
   <id>https://braverunto.github.io/</id>
   <title>BraveRunTo</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-21T09:40:23+08:00</updated>
+  <updated>2024-07-21T09:42:08+08:00</updated>
   <author>
     <name>BraveRunTo</name>
     <uri>https://braverunto.github.io/</uri>
@@ -44,11 +44,49 @@
 
   
   <entry>
+    <title>架构搭建相关总结</title>
+    <link href="https://braverunto.github.io/posts/%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3%E6%80%BB%E7%BB%93/" rel="alternate" type="text/html" title="架构搭建相关总结" />
+    <published>2024-06-23T00:00:00+08:00</published>
+  
+    <updated>2024-06-23T00:00:00+08:00</updated>
+  
+    <id>https://braverunto.github.io/posts/%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3%E6%80%BB%E7%BB%93/</id>
+    <content src="https://braverunto.github.io/posts/%E6%9E%B6%E6%9E%84%E6%90%AD%E5%BB%BA%E7%9B%B8%E5%85%B3%E6%80%BB%E7%BB%93/" />
+    <author>
+      <name>BraveRunTo</name>
+    </author>
+
+  
+    
+    <category term="架构搭建相关" />
+    
+  
+
+  <summary>架构搭建相关总结
+
+架构构建原则
+
+无论再复杂的架构，在构建时都需要满足以下原则：
+
+
+  易用性
+    
+      架构暴露给使用者的一定是最存粹的接口，架构需要向使用者屏蔽内部实现细节。同时架构的各个模块的使用方法应该趋同，这样可以降低架构的使用难度。
+      架构尽可能在使用上要贴合既有的系统机制，就是说架构在使用机制上，应该以所使用的语言或者底层系统的使用机制为前提进行。尽可能减少拓展新机制。拓展新的使用机制一定意味着更高的学习成本和使用成本。
+        
+          这里举架构拓展新使用机制的例子：比如我们希望将一个缓存池作为底层，所有架构中的对象都需要通过缓存池进行统一创建而不是直接使用语言提供的new进行构建对象，这种就属于架构自己加入了新的使用机制。
+          如果一定需要拓展新的使用机制，请尽可能的将新增机制封装在底层。
+      ...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>svn</title>
     <link href="https://braverunto.github.io/posts/svn/" rel="alternate" type="text/html" title="svn" />
     <published>2024-05-03T00:00:00+08:00</published>
   
-    <updated>2024-05-03T00:00:00+08:00</updated>
+    <updated>2024-07-21T09:40:30+08:00</updated>
   
     <id>https://braverunto.github.io/posts/svn/</id>
     <content src="https://braverunto.github.io/posts/svn/" />
@@ -158,32 +196,6 @@ SVN配置时可能会遇到的问题
 Generate the favicon
 
 Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="https://braverunto.github.io/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
-  
-    <updated>2019-08-09T20:55:00+08:00</updated>
-  
-    <id>https://braverunto.github.io/posts/getting-started/</id>
-    <content src="https://braverunto.github.io/posts/getting-started/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
 
   </entry>
 
