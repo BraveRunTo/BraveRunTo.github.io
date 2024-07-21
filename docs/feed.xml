@@ -4,7 +4,7 @@
   <id>https://braverunto.github.io/</id>
   <title>BraveRunTo</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-21T09:46:51+08:00</updated>
+  <updated>2024-07-21T09:51:24+08:00</updated>
   <author>
     <name>BraveRunTo</name>
     <uri>https://braverunto.github.io/</uri>
@@ -86,7 +86,7 @@
     <link href="https://braverunto.github.io/posts/svn/" rel="alternate" type="text/html" title="svn" />
     <published>2024-05-03T00:00:00+08:00</published>
   
-    <updated>2024-07-21T09:46:24+08:00</updated>
+    <updated>2024-07-21T09:46:55+08:00</updated>
   
     <id>https://braverunto.github.io/posts/svn/</id>
     <content src="https://braverunto.github.io/posts/svn/" />
