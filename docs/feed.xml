@@ -4,7 +4,7 @@
   <id>https://braverunto.github.io/</id>
   <title>BraveRunTo</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-21T09:51:24+08:00</updated>
+  <updated>2024-08-03T21:03:43+08:00</updated>
   <author>
     <name>BraveRunTo</name>
     <uri>https://braverunto.github.io/</uri>
@@ -171,31 +171,43 @@ SVN配置时可能会遇到的问题
 
   
   <entry>
-    <title>Customize the Favicon</title>
-    <link href="https://braverunto.github.io/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
+    <title>Cinemachine</title>
+    <link href="https://braverunto.github.io/posts/Cinemachine/" rel="alternate" type="text/html" title="Cinemachine" />
+    <published>2024-05-03T00:00:00+08:00</published>
   
-    <updated>2019-08-11T00:34:00+08:00</updated>
+    <updated>2024-05-03T00:00:00+08:00</updated>
   
-    <id>https://braverunto.github.io/posts/customize-the-favicon/</id>
-    <content src="https://braverunto.github.io/posts/customize-the-favicon/" />
+    <id>https://braverunto.github.io/posts/Cinemachine/</id>
+    <content src="https://braverunto.github.io/posts/Cinemachine/" />
     <author>
-      <name>cotes</name>
+      <name>BraveRunTo</name>
     </author>
 
   
     
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
+    <category term="Cinemachine" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
+  <summary>Cinemachine
 
-Generate the favicon
+参考文章：
 
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+https://zhuanlan.zhihu.com/p/516625841
+
+https://docs.unity.cn/Packages/com.unity.cinemachine@2.9/manual/index.html
+
+快速使用Cinemachine系统
+
+Cinemachine是用于处理Unity相机相关逻辑的系统。Cinemachine为开发人员解决了在不同相机视角之间组合，混合，裁切，追踪目标的逻辑和数学运算。
+
+虚拟相机
+
+Cinemachine系统不会创建新的相机，而是指挥单个相机的属性在多个虚拟相机（CinemachineVirtualCamera）的视角之间进行切换。虚拟相机和相机之间是相互独立的，二者之间没有必须嵌套在一起的规则，例如对于一个存在虚拟相机的场景很有可能长得像下图所示：
+
+
+
+Cinemachine中虚...</summary>
 
   </entry>
 
