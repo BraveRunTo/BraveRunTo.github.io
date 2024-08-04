@@ -21,7 +21,7 @@ Cinemachine是用于处理Unity相机相关逻辑的系统。Cinemachine为开�
 
 Cinemachine系统不会创建新的相机，而是指挥单个相机的属性在多个虚拟相机（CinemachineVirtualCamera）的视角之间进行切换。虚拟相机和相机之间是相互独立的，二者之间没有必须嵌套在一起的规则，例如对于一个存在虚拟相机的场景很有可能长得像下图所示：
 
-![image-20240225113153615](https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240225113153615.5fkhwkofib.webp)
+![CinemachineSceneHierarchy](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineSceneHierarchy.8ad63fzzzc.webp)
 
 Cinemachine中虚拟相机的主要任务为：
 
@@ -98,7 +98,7 @@ Aim属性为开发人员提供了以下几种算法：
 
 ### 虚拟相机属性
 
-![image-20240225111253998](https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240225111253998.2krtqs98qq.webp)
+![CinemachineVCamProperties](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineVCamProperties.8dws15t2p4.webp)
 
 - Solo：该选项可以临时让一个虚拟相机处于Live状态，主要用于调试时适配虚拟相机的位置
 - Game Window Guides：
@@ -127,7 +127,7 @@ Body属性主要用于控制虚拟相机的位置。
 
 使用该模式，Cinemachine会以一种固定的位置和距离跟随Follow Target。
 
-![image-20240117191515930](https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240117191515930.8dws02wozm.webp)
+![CinemachineRigSceneView](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineRigSceneView.3gob7bfaw7.webp)
 
 此项会将挂载CinemachineBrain的游戏对象与FollowTarget保持一定的距离，并追踪目标的移动和旋转。Cinemachine通过4个点来确定这个距离：
 
@@ -215,7 +215,7 @@ Body属性主要用于控制虚拟相机的位置。
 
 这个算法通过引入Dolli Path资源来保证按照既定的轨迹来运行虚拟相机。Dolly Path是一系列路点的集合。为一个空游戏对象挂载CinemachinePath或者CinemachineSoomthPath以编辑轨道。
 
-![image-20240303101840654](https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240303101840654.6ik77gk9dt.webp)
+![image-20240303101840654](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240303101840654.13loq41hph.webp)
 
 - Resolution：轨迹点与点之间的采样数量，数量越高，移动约圆滑
 - Appearance：如何在Scene视口内显示辅助Icon
@@ -266,7 +266,7 @@ Cinemachine Target Group组件可以理解为其永远都处于所有包含对�
 
 除了在Cinemachine上直接设置默认的虚拟相机之间的过渡方式，还可以通过Custom Blend自定义每两个虚拟相机之间的过渡方式。使用Custom Blend需要新建或者使用现成的配置资源。该资源通过Brain组件上的Create Asset进行创建
 
-![CinemachineRigSceneView](https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineRigSceneView.9rjb447r0g.webp)
+![image-20240117191515930](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240117191515930.4916p1vwmg.webp)
 
 ### Manager Camera
 
@@ -294,7 +294,7 @@ Cinemachine中存在一种特殊的虚拟相机，官方称为Manager Camera。�
 
 红框下面的列表Virtual Camera Children则负责生成Blend List Camera需要控制的子虚拟相机，注意子虚拟相机的名称需要有区分。
 
-![CinemachineVCamProperties](https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineVCamProperties.6t710lzhj3.webp)
+![image-20240225111253998](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240225111253998.67xdfe1ey1.webp)
 
 #### Clear Shot Camera
 
@@ -310,7 +310,7 @@ Cinemachine中存在一种特殊的虚拟相机，官方称为Manager Camera。�
 
 通过挂载CinemachineStateDrivenCamera来获得该相机功能。该组件可以为每一个具体的动画状态机状态指定一个虚拟相机。核心参数和Blend List Camera类似，一个列表指定状态机状态和虚拟相机的对应关系，另一个列表用于指定StateDrivenCamera的子虚拟相机。由于动画状态机是图形结构，所以对于虚拟相机之间的切换功能是通过虚拟相机混合资源实现的。
 
-![CinemachineSceneHierarchy](https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineSceneHierarchy.4g4ejeloce.webp)
+![image-20240225113153615](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240225113153615.7w6qckrp4a.webp)
 
 ### 虚拟相机拓展
 

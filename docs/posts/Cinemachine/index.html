@@ -1773,7 +1773,7 @@
 
 <p>Cinemachine系统不会创建新的相机，而是指挥单个相机的属性在多个虚拟相机（CinemachineVirtualCamera）的视角之间进行切换。虚拟相机和相机之间是相互独立的，二者之间没有必须嵌套在一起的规则，例如对于一个存在虚拟相机的场景很有可能长得像下图所示：</p>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240225113153615.5fkhwkofib.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240225113153615.5fkhwkofib.webp" alt="image-20240225113153615" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineSceneHierarchy.8ad63fzzzc.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineSceneHierarchy.8ad63fzzzc.webp" alt="CinemachineSceneHierarchy" loading="lazy"></a></p>
 
 <p>Cinemachine中虚拟相机的主要任务为：</p>
 
@@ -1860,7 +1860,7 @@
 
 <h3 id="虚拟相机属性"><span class="me-2">虚拟相机属性</span><a href="#虚拟相机属性" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240225111253998.2krtqs98qq.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240225111253998.2krtqs98qq.webp" alt="image-20240225111253998" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineVCamProperties.8dws15t2p4.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineVCamProperties.8dws15t2p4.webp" alt="CinemachineVCamProperties" loading="lazy"></a></p>
 
 <ul>
   <li>Solo：该选项可以临时让一个虚拟相机处于Live状态，主要用于调试时适配虚拟相机的位置</li>
@@ -1891,7 +1891,7 @@
 
 <p>使用该模式，Cinemachine会以一种固定的位置和距离跟随Follow Target。</p>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240117191515930.8dws02wozm.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240117191515930.8dws02wozm.webp" alt="image-20240117191515930" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineRigSceneView.3gob7bfaw7.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/CinemachineRigSceneView.3gob7bfaw7.webp" alt="CinemachineRigSceneView" loading="lazy"></a></p>
 
 <p>此项会将挂载CinemachineBrain的游戏对象与FollowTarget保持一定的距离，并追踪目标的移动和旋转。Cinemachine通过4个点来确定这个距离：</p>
 
@@ -1993,7 +1993,7 @@
 
 <p>这个算法通过引入Dolli Path资源来保证按照既定的轨迹来运行虚拟相机。Dolly Path是一系列路点的集合。为一个空游戏对象挂载CinemachinePath或者CinemachineSoomthPath以编辑轨道。</p>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240303101840654.6ik77gk9dt.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/image-20240303101840654.6ik77gk9dt.webp" alt="image-20240303101840654" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240303101840654.13loq41hph.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240303101840654.13loq41hph.webp" alt="image-20240303101840654" loading="lazy"></a></p>
 
 <ul>
   <li>Resolution：轨迹点与点之间的采样数量，数量越高，移动约圆滑</li>
@@ -2046,7 +2046,7 @@
 
 <p>除了在Cinemachine上直接设置默认的虚拟相机之间的过渡方式，还可以通过Custom Blend自定义每两个虚拟相机之间的过渡方式。使用Custom Blend需要新建或者使用现成的配置资源。该资源通过Brain组件上的Create Asset进行创建</p>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineRigSceneView.9rjb447r0g.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineRigSceneView.9rjb447r0g.webp" alt="CinemachineRigSceneView" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240117191515930.4916p1vwmg.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240117191515930.4916p1vwmg.webp" alt="image-20240117191515930" loading="lazy"></a></p>
 
 <h3 id="manager-camera"><span class="me-2">Manager Camera</span><a href="#manager-camera" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
@@ -2076,7 +2076,7 @@
 
 <p>红框下面的列表Virtual Camera Children则负责生成Blend List Camera需要控制的子虚拟相机，注意子虚拟相机的名称需要有区分。</p>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineVCamProperties.6t710lzhj3.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineVCamProperties.6t710lzhj3.webp" alt="CinemachineVCamProperties" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240225111253998.67xdfe1ey1.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240225111253998.67xdfe1ey1.webp" alt="image-20240225111253998" loading="lazy"></a></p>
 
 <h4 id="clear-shot-camera"><span class="me-2">Clear Shot Camera</span><a href="#clear-shot-camera" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
@@ -2092,7 +2092,7 @@
 
 <p>通过挂载CinemachineStateDrivenCamera来获得该相机功能。该组件可以为每一个具体的动画状态机状态指定一个虚拟相机。核心参数和Blend List Camera类似，一个列表指定状态机状态和虚拟相机的对应关系，另一个列表用于指定StateDrivenCamera的子虚拟相机。由于动画状态机是图形结构，所以对于虚拟相机之间的切换功能是通过虚拟相机混合资源实现的。</p>
 
-<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineSceneHierarchy.4g4ejeloce.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/CinemachineSceneHierarchy.4g4ejeloce.webp" alt="CinemachineSceneHierarchy" loading="lazy"></a></p>
+<p><a href="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240225113153615.7w6qckrp4a.webp" class="popup img-link  shimmer"><img src="https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_cinemachine/image-20240225113153615.7w6qckrp4a.webp" alt="image-20240225113153615" loading="lazy"></a></p>
 
 <h3 id="虚拟相机拓展"><span class="me-2">虚拟相机拓展</span><a href="#虚拟相机拓展" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
