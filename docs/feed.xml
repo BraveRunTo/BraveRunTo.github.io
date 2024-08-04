@@ -4,7 +4,7 @@
   <id>https://braverunto.github.io/</id>
   <title>BraveRunTo</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-08-04T15:12:52+08:00</updated>
+  <updated>2024-08-04T15:23:34+08:00</updated>
   <author>
     <name>BraveRunTo</name>
     <uri>https://braverunto.github.io/</uri>
@@ -129,6 +129,51 @@ SVN配置时可能会遇到的问题
 
   
   <entry>
+    <title>Unity学习日志_Unity地形系统简介</title>
+    <link href="https://braverunto.github.io/posts/Unity%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97_Unity%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/" rel="alternate" type="text/html" title="Unity学习日志_Unity地形系统简介" />
+    <published>2024-05-03T00:00:00+08:00</published>
+  
+    <updated>2024-05-03T00:00:00+08:00</updated>
+  
+    <id>https://braverunto.github.io/posts/Unity%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97_Unity%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/</id>
+    <content src="https://braverunto.github.io/posts/Unity%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97_Unity%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/" />
+    <author>
+      <name>BraveRunTo</name>
+    </author>
+
+  
+    
+    <category term="地形系统" />
+    
+  
+
+  <summary>Unity学习日志_Unity地形系统简介
+
+地形创建：
+
+Terrain中的组件：
+
+Transform
+
+Terrain
+
+
+  
+  四大功能：
+    
+      paint Terrain，可以选择下面几种具体的模式：
+        
+          
+          Create Neighbor Terrains：创建临近地形。临近地形拥有和源地形相同的基础纹理。
+          Raise or Lower Terrain：隆起或者下凹地形，其中下凹地形需要使用shift+左键。
+          Paint Texture：绘制地形纹理，单个纹理会作用于整个地形，多个纹理则可使用地形刷选择绘制。
+          Set Height：设置地形的高度，有高度了才可以绘制下凹地形。
+          Smooth Height：平滑地形，去除隆起...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Git多端构建</title>
     <link href="https://braverunto.github.io/posts/Git%E5%A4%9A%E7%AB%AF%E6%9E%84%E5%BB%BA/" rel="alternate" type="text/html" title="Git多端构建" />
     <published>2024-05-03T00:00:00+08:00</published>
@@ -166,48 +211,6 @@ SVN配置时可能会遇到的问题
 常用git指令
 
 文章链接：https://www.cnblogs.com/wangzhebin/p/16669718.html</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Cinemachine</title>
-    <link href="https://braverunto.github.io/posts/Cinemachine/" rel="alternate" type="text/html" title="Cinemachine" />
-    <published>2024-05-03T00:00:00+08:00</published>
-  
-    <updated>2024-05-03T00:00:00+08:00</updated>
-  
-    <id>https://braverunto.github.io/posts/Cinemachine/</id>
-    <content src="https://braverunto.github.io/posts/Cinemachine/" />
-    <author>
-      <name>BraveRunTo</name>
-    </author>
-
-  
-    
-    <category term="Cinemachine" />
-    
-  
-
-  <summary>Cinemachine
-
-参考文章：
-
-https://zhuanlan.zhihu.com/p/516625841
-
-https://docs.unity.cn/Packages/com.unity.cinemachine@2.9/manual/index.html
-
-快速使用Cinemachine系统
-
-Cinemachine是用于处理Unity相机相关逻辑的系统。Cinemachine为开发人员解决了在不同相机视角之间组合，混合，裁切，追踪目标的逻辑和数学运算。
-
-虚拟相机
-
-Cinemachine系统不会创建新的相机，而是指挥单个相机的属性在多个虚拟相机（CinemachineVirtualCamera）的视角之间进行切换。虚拟相机和相机之间是相互独立的，二者之间没有必须嵌套在一起的规则，例如对于一个存在虚拟相机的场景很有可能长得像下图所示：
-
-
-
-Cinemachine中虚...</summary>
 
   </entry>
 

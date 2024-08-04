@@ -52,6 +52,23 @@
   },
   
   {
+    "title": "Unity学习日志_Unity地形系统简介",
+    "url": "/posts/Unity%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97_Unity%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/",
+    "categories": "地形系统",
+    "tags": "unity",
+    "date": "2024-05-03 00:00:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "Unity学习日志_Unity地形系统简介地形创建：Terrain中的组件：TransformTerrain    四大功能：          paint Terrain，可以选择下面几种具体的模式：                            Create Neighbor Terrains：创建临近地形。临近地形拥有和源地形相同的基础纹理。          Raise or...",
+    "content": "Unity学习日志_Unity地形系统简介地形创建：Terrain中的组件：TransformTerrain    四大功能：          paint Terrain，可以选择下面几种具体的模式：                            Create Neighbor Terrains：创建临近地形。临近地形拥有和源地形相同的基础纹理。          Raise or Lower Terrain：隆起或者下凹地形，其中下凹地形需要使用shift+左键。          Paint Texture：绘制地形纹理，单个纹理会作用于整个地形，多个纹理则可使用地形刷选择绘制。          Set Height：设置地形的高度，有高度了才可以绘制下凹地形。          Smooth Height：平滑地形，去除隆起地形时产生的尖角。          Stamp Terrain：创建尖角。                    paint Trees                            首先需要有树的模型，点击Edit Trees可以添加。          Mass Place Trees：在该地形中一次性随机种指定数量的树。          Settings：                          Brush Size：地形刷大小。              Tree Density：地形刷的种树密度。              Tree Height：设置树高，和树高是否随机。              Lock Width to Height：根据树高锁定树宽。              Color Variation：设置色差。                                          paint Details                            本功能与paint trees同理。主要用于绘制地形表面的植被，如草和花。                    Terrain Settings        Brushes（地形刷）：          最先引入眼帘的是笔刷样式，右下角为添加新的笔刷样式。                                      Brush Size：笔刷大小。      Opacity：不透明度。决定一次涂抹的比例。      Terrain Collider  Terrain Settings1. Basic Terrain(基础地形)：  Draw：是否开启地形绘制；如果关闭则不在渲染地形。  Pixel Error：可以理解为游戏中的渲染距离，数值越大则同一距离下的图形越简陋，不准确。  Base Map Dist:数值距离内的贴图纹理为全分辨率，距离之外的则会合成低分辨率的纹理。          全分辨率：                                      低分辨率：                                        Cast Shadow：是否投射地形阴影。  Material：设置渲染地形的材质，分为标准，漫反射，镜面，自定义四种。  Reflection Probes：如果启动并且反射探头出现在场景中，反射纹理会从这个游戏对象和构建着色器设置的变量中获得。  Thickness：设置地形厚度，有助于防止高速移动的物体穿透地面。2. Tree&amp;Detail Object(树与细节对象):1. Draw：是否绘制树和细节对象。2. Bake Light Probes For Trees：如果启用，Unity将为每棵树创建内部光照探针（不影响场景中的其他渲染器），并应用于树的渲染照明。3. Detail Distance：细节对象的可视渲染距离。4. Detail Density：细节对象的密度。5. Tree Distance：树的可视渲染距离。6. Billboard Start：树木被替换成广告牌时的距离。  \t1. 变成了广告牌：       \t1. ![9](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_dixing/9.7ljwjfqspu.webp) \t2. 没有变成广告牌：     \t1. ![10](https://github.com/BraveRunTo/picx-images-hosting/raw/master/unity_dixing/10.45hkrch5nn.webp)7. Max Mesh Trees：可见三维网格树的最大数量，超过这个数量树将由广告牌替代。3. Wind Settings for Grass(风对于草地的设置)：1. Speed：风吹草的速度。2. Size：风吹过草地时的涟漪大小。3. Bending：草被吹过之后的弯曲程度。4. Grass Tint：草的基色。4. Resolution(分辨率)：1. Terrain Width：地形高度。2. Terrain Length：地形长度。3. Terrain Height：地形高度。水和雾的效果设置：  水：          通常会将水的材质放在plane物体上，然会将plane安放在合适的地方。        雾：          在Lighting视图中的Other Setting中勾选fog选项，并可以在此面板中进行具体的设置。      "
+  },
+  
+  {
     "title": "Git多端构建",
     "url": "/posts/Git%E5%A4%9A%E7%AB%AF%E6%9E%84%E5%BB%BA/",
     "categories": "Git构建",
