@@ -6,6 +6,6 @@ gemspec
 
 group :test do
   gem "html-proofer", "~> 5.0"
-  gem "jekyll-sass-converter", "~> 2.2.0"
+  gem "jekyll-sass-converter", "~> 3.0.0"
   gem "tzinfo-data"
 end
